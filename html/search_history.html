@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+     <title>搜索历史</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+     <link rel="stylesheet" type="text/css" href="../css/search_history.css">
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>
+    <div id="page">
+        <header>
+        	<a href="../index.html"><img src="../images/MyOrder_img/MyOrder_left.png"></a>
+            
+            <form action="search.html" method="get">
+                <input type="text" placeholder="请输入商品名称"/>
+                <input type="submit" value="搜索"/>
+            </form>
+        </header>
+
+        <div id="main">
+            <div id="hot">
+                <p>热门搜索</p>
+                <a href="#">大闸蟹</a>
+                <a href="#">水</a>
+                <a href="#">中秋月饼</a>
+                <a href="#">酸奶</a>
+                <a href="#">啤酒</a>
+                <a href="#">西瓜</a>
+                <a href="#">大荔冬枣</a>
+                <a href="#">贝尔蛋糕</a>
+                <a href="#">月盛斋</a>
+            </div>
+            <div id="history">
+                <p>历史记录</p>
+                <a href="#">大闸蟹</a>
+            </div>
+
+            <span id="clear">清空历史</span>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="../js/search_history.js"></script>
+    <script type="text/javascript">
+    document.documentElement.style.fontSize = innerWidth/10 +"px";
+    window.onresize = function(){
+      document.documentElement.style.fontSize = innerWidth/10 +"px";
+    }
+    </script>
+</body>
+</html>

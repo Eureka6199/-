@@ -1,0 +1,66 @@
+
+
+#shop #site{height:1.4375rem;background-color: #ffd600;}
+#shop #site span{font-size: 0.40625rem;margin: 0 auto;display: block;width: 2.8125rem;height: 100%;text-align: center;line-height: 1.4375rem;}
+
+#shop #site dl{float: right;}
+#shop #site dl dt:first-of-type,#site dl dt:first-of-type img{width: 0.5625rem;height: 0.5625rem;}
+#shop #site dl dt:last-of-type,#site dl dt:last-of-type img{width: 0.625rem;height: 0.59375rem;}
+#shop #site dl{font-size: 0.21875rem;margin:0.234375rem 0.1875rem 0 0 ;}
+#shop #site dl dd{margin-top: 0.15625rem;line-height:0.21875rem;}
+
+#shop #main{background-color: #fff;display: flex;justify-content: space-between;}
+
+#shop #main #left{width:2.375rem;background-color: #f8f8f8;position: relative;overflow-y: auto;height: 100%;}
+#shop #main #left p{height: 1.28125rem;border-bottom: 2px solid #e0e0e0;text-align: center;line-height: 1.25rem;font-size: 0.34375rem;color: #6d6d6d;}
+#shop #main #left p:nth-of-type(2){background: url(../../images/hotSell_img/hot.png) no-repeat right top;background-size: 0.84375rem 0.875rem;}
+
+#shop #main #left>span{width: 0.15625rem;height: 1.09375rem;background-color: #ffd600;display: block;position: absolute;top: 0.078125rem;left: 0;}
+
+
+#shop #main #right{width: 7.5rem;height: 100%;}
+
+#shop #main #right p{width: 100%;display: flex;height: 1.28125rem;border-bottom: 2px solid #e0e0e0;align-items: center;}
+#shop #main #right p>a{width: 50%;height: 0.5625rem;line-height:0.5625rem;text-align:center;font-size: 0.34375rem;color: #777777;}
+#shop #main #right p>a:last-of-type{border-left: 2px solid #e0e0e0;}
+
+#shop #main #right p>a img{width: 0.3125rem;height: 0.15625rem;margin-left: 0.140625rem;}
+
+#shop #main #right #box{overflow-y: auto;}
+#shop #main #right #box dl{height: 2.8125rem;width: 100%;border-bottom: 2px solid #e0e0e0;position: relative;}
+#shop #main #right #box dl:last-of-type{border-bottom: 0;}
+
+#shop #main #right #box dl dt{float: left;}
+#shop #main #right #box dl dt img{2.5rem;height: 2.78125rem;}
+
+#shop #main #right #box dl dd{line-height: 0.67625rem;margin-left:0.15625rem;float: left;width: 4.15625rem;font-size: 0.28125rem;color: #777;}
+#shop #main #right #box dl dd:nth-of-type(1){font-size: 0.34375rem;color: #232b33;margin-top: 0.125rem;}
+
+#shop #main #right #box dl dd:nth-of-type(2){display: flex;align-items: center;line-height: 0.67625rem;height: 0.67625rem;}
+#shop #main #right #box dl dd:nth-of-type(2) img{width: 0.875rem;height: 0.4375rem;}
+#shop #main #right #box dl dd:nth-of-type(2) span{width: 1.5rem;height: 0.4375rem;background-color: #ff0000;color: #fff;display: inline-block;border-radius: 7px;text-align: center;line-height:0.4375rem;margin-left:0.15625rem;}
+
+#shop #main #right #box dl dd:nth-of-type(4){color: #ff3800;font-size: 0.28125rem;}
+#shop #main #right #box dl dd:nth-of-type(4) del{color: #999;}
+
+#shop #main #right #box dl dd:last-of-type{position: absolute;width: 2.65625rem;bottom: 0.34375rem;right: 0.34375rem;height: 0.875rem;line-height:0.875rem ;}
+
+#shop #main #right #box dl dd:last-of-type span{width: 0.875rem;height: 0.875rem;text-align: center;line-height:0.875rem ;font-size: 0.34375rem;display: inline-block;}
+#shop #main #right #box dl dd:last-of-type span:first-of-type{background:#ff4300 url(../../images/hotSell_img/icon.png) no-repeat 0 center;background-size:1.81985rem 0.90993rem;border:1px solid #e1e1e1;border-radius: 50%;float: left;display: none;}
+#shop #main #right #box dl dd:last-of-type span:last-of-type{background:#ff4300 url(../../images/hotSell_img/icon.png) no-repeat -0.933125rem center;background-size:1.81985rem 0.90993rem;border:1px solid #e1e1e1;border-radius: 50%;float: right;}
+#shop #main #right #box dl dd:last-of-type .goodsNum{position:absolute;right: 0.875rem;top: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

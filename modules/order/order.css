@@ -1,0 +1,33 @@
+
+
+#order #page{width: 100%;font-size:0.1875rem;background-color: #efefef;box-sizing: border-box;padding-bottom: 1.5625rem;color: #898989;}
+
+#order header{height:1.4375rem;background-color: #f9fafd;font-size: 0.390625rem;font-weight: bold;text-align: center;line-height: 1.40625rem;border-bottom: 2px solid #e0e0e0;letter-spacing: 1px;}
+
+#order #nav{height: 2.15625rem;background-color: #fff;border-top:1px solid #a4a4a4;border-bottom:1px solid #a4a4a4;margin-top: 0.15625rem;}
+
+#order #nav p{height: 1.046875rem;display: flex;padding:0 0.1875rem;justify-content: space-between;align-items: center;}
+#order #nav p a{width: 1.640625rem;text-align: center;font-size: 0.34375rem;color: #898989;0.234375rem}
+
+#order #nav b{height: 0.03125rem;background-color: #d2d2d2;display: block;padding:0 0.1875rem;}
+#order #nav b span{width: 1.640625rem;float: left;height: 0.03125rem;background-color:#595656; }
+#order #nav p .line{font-weight:bold;color: #000;}
+
+
+
+#order #main{margin-top: 0.25rem;background-color: #fff;}
+
+
+#order #main>p{height: 0.96875rem;border-top:1px solid #a4a4a4;border-bottom: 2px solid #cccccc;}
+#order #main>p span{font-size: 0.34375rem;float: left;height: 0.390625rem;border-left: 0.15625rem solid #2bb1fa;padding-left: 0.46875rem;line-height: 0.34375rem;margin:0.296875rem 0 0 0.265625rem;}
+
+#order #box>div{height: 3.53125rem;border-bottom: 2px solid #cccccc;}
+#order #box>div img{float: left;width: 3.5rem;height: 3.484375rem;margin-left: 0.6875rem;}
+#order #box>div>p{width: 4.375rem;line-height: 0.625rem;float: left;font-size:0.390625rem;margin-top: 0.234375rem;margin-left: 0.53125rem;}
+
+#order #box b{font-weight: normal;}
+#order #box>div span:first-of-type{float: left;width: 2.65625rem;line-height: 0.40625rem;font-size: 0.234375rem;color: #f1361d;margin:0.625rem 0 0 0.53125rem;}
+#order #box>div span:first-of-type b{font-size: 0.40625rem;}
+
+#order #box>div span:last-of-type{float: right;}
+#order #box>div span:last-of-type img{width: 1.078125rem;height: 1.0625rem;margin-top: 0.21875rem;margin-right: 0.625rem;}

@@ -1,0 +1,47 @@
+
+
+#car{width: 100%;font-size:0.1875rem;background-color: #efefef;box-sizing: border-box;padding-bottom: 1.5625rem;}
+
+#car header{height: 1.4375rem;background-color: #f9fafd;font-size: 0.390625rem;font-weight: bold;text-align: center;line-height: 1.40625rem;border-bottom: 2px solid #e0e0e0;letter-spacing: 1px;}
+
+#car #site{height: 1.5rem;background-color: #fff;color: #e64f1a;font-size: 0.40625rem;line-height: 1.5rem;text-indent: 1em;}
+
+#car #main{margin-top: 0.3125rem;background-color: #fff;}
+
+#car #main .freight{height:1.75rem;border-bottom: 2px solid #e0e0e0;color: #999;padding:0.5px;font-size: 0;}
+#car #main .freight span{display: block;height:0.375rem;line-height:0.375rem;margin-left: 0.4375rem;font-size: 0.34375rem;margin-top: 0.25rem;}
+#car #main .freight span img{width: 0.125rem;height: 0.375rem;margin-right: 0.1875rem;float: left;}
+#car #main .freight p{font-size: 0.3125rem;margin-top: 0.625rem;line-height: 0.3125rem;margin-left:0.4375rem}
+
+#car #main .arriveTime{height: 1.59375rem;border-bottom: 2px solid #e0e0e0;font-size: 0.390625rem;line-height: 1.5625rem;}
+#car #main .arriveTime span{float: left;margin-left: 0.46875rem;}
+#car #main .arriveTime span:last-of-type{color: #e64f1a;}
+#car #main .arriveTime a{float: right;margin-right: 0.46875rem;}
+#car #main .arriveTime a img{width: 0.15625rem;height: 0.3125rem;margin-left: 0.0625rem;}
+
+#car #main .remark{height: 1.59375rem;border-bottom: 2px solid #e0e0e0;font-size: 0.390625rem;line-height: 1.5625rem;}
+#car #main .remark span{margin: 0 0.46875rem;}
+#car #main .remark input{width: 6.8125rem;height: 1.0rem;border:2px solid #cecece;border-radius: 0.15625rem;text-indent: 0.171875rem;}
+
+
+#car #box>div{position: relative;height: 2.53125rem;border-bottom: 2px solid #e0e0e0;font-size:0.3125rem;}
+#car #box>div>span{width: 0.5625rem;height: 0.546875rem;float: left;margin:1.0rem 0 0 0.5rem;background: url(../../images/shoppingCart/check1.png) center; background-size: 0.5625rem 0.546875rem;}
+#container #car #box .checkedS{background: url(../../images/shoppingCart/correct.png) center; background-size: 0.5625rem 0.546875rem;}
+#container #car #boxAll .checkedS{background: url(../../images/shoppingCart/correct.png) center; background-size: 0.5625rem 0.546875rem;}
+#car #box>div>img{float:left;width: 2.515625rem;height:auto;}
+#car #box>div p{line-height: 1.25rem;font-size: 0.40625rem;}
+
+#car #box>div p:last-of-type{position: absolute;display: flex;width: 2.65625rem;justify-content: space-between;bottom: 0.34375rem;right: 0.34375rem;line-height:0.875rem }
+
+#car #box>div p:last-of-type span{width: 0.875rem;height: 0.875rem;text-align: center;line-height:0.875rem;font-size: 0.34375rem;}
+#car #box>div p:last-of-type span:first-of-type{background:#ff4300 url(../../images/shoppingCart/icon.png) no-repeat 0 center;background-size:1.81985rem 0.90993rem;border:1px solid #ffbf8b;border-radius: 50%;
+}
+#car #box>div p:last-of-type span:last-of-type{background:#ff4300 url(../../images/shoppingCart/icon.png) no-repeat -0.933125rem center;background-size:1.81985rem 0.90993rem;border:1px solid #ffbf8b;border-radius: 50%;
+}
+
+#car #boxAll{height:1.5625rem;font-size: 0.40625rem;line-height: 1.5625rem;}
+#car #boxAll>div{float: left;}
+#car #boxAll>div span:first-of-type{width: 0.5625rem;height: 0.546875rem;margin-left: 0.46875rem;margin-right: 0.234375rem;line-height: 0.546875rem;float: left;margin-top: 0.5rem;background: url(../../images/shoppingCart/check1.png) center; background-size: 0.5625rem 0.546875rem;}
+#car #boxAll p{margin-left: 0.8125rem;display: inline-block;}
+#car #boxAll p>span{margin-left: 0.3125rem;color: #e64f1a;display: inline-block;}
+#car #boxAll>span:last-of-type{width: 3.125rem;height: 1.5625rem;float: right;background-color: #ffd600;text-align: center;line-height: 1.5625rem;}

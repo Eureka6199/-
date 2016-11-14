@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+     <title>我的订单</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+     <link rel="stylesheet" type="text/css" href="../css/MyOrder.css">
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>
+    <div id="page">
+        <header>
+        	<a href="../index.html"><img src="../images/MyOrder_img/MyOrder_left.png"></a>
+            <img src="../images/MyOrder_img/refresh.png">
+            <span>我的订单</span>
+        </header>
+
+        <div id="nav">
+            <a href="#">全部订单</a>
+            <a href="#">待付款</a>
+            <a href="#">待收货</a>
+            <a href="#">待评价</a>
+            <a href="#">退款/售后</a>
+        </div>
+        
+        <div id="noOrder">
+            <img src="../images/MyOrder_img/MyOrder_logo.png">
+            <p>还没有订单哦</p>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+    document.documentElement.style.fontSize = innerWidth/10 +"px";
+    window.onresize = function(){
+      document.documentElement.style.fontSize = innerWidth/10 +"px";
+    }
+    if (page.offsetHeight<innerHeight) {
+        page.style.height = innerHeight +"px";
+    }
+
+    var oA = document.querySelectorAll("#nav a");
+    for(var i=0;i<oA.length;i++){
+        oA[i].style.borderBottom = "none";
+
+        oA[i].addEventListener("touchstart",function(e){
+            var touch = e.targetTouches[0];
+            for(var i=0;i<oA.length;i++){
+                oA[i].style.borderBottom = "none";
+            }
+            this.style.borderBottom = "0.0625rem solid red";
+        })
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+
+#mine #page{width: 100%;font-size:0.34375rem;background-color: #efefef;box-sizing: border-box;padding-bottom:1.5625rem;color: #898989;}
+
+#mine header{height: 3.125rem;background-color: #ffd600;}
+
+#mine header>img:first-of-type{float: left;margin:0.640625rem 0.46875rem 0 0.484375rem;width: 1.84375rem;height: 1.84375rem;}
+#mine header div{float: left;width:4.0625rem;margin-top:0.625rem;}
+
+#mine header div p{line-height: 0.875rem;height: 0.875rem;font-weight: bold;color: #fff;}
+#mine header div p img{width: 2.609375rem;height: 0.875rem;}
+
+
+
+
+#mine header>img:last-of-type{float: right;margin:1.25rem 0.625rem 0 0;width: 0.34375rem;height: 0.59375rem;}
+
+#mine #collect{height: 1.09375rem;background-color: #f3c800;box-sizing: content-box;display: flex;align-items: center;}
+#mine #collect a{width: 4.984375rem;display: flex;align-items: center;justify-content: center;color: #fff;height: 0.65625rem;}
+#mine #collect a:first-of-type{border-right: 0.03125rem solid #fff;}
+#mine #collect a img{margin-right: 0.375rem;}
+#mine #collect a:first-of-type img{width: 0.53125rem;height: 0.546875rem;}
+#mine #collect a:last-of-type img{width:0.5625rem;height: 0.515625rem;}
+
+#mine #myIndent{background-color: #fff;margin-top:0.28125rem;color: #333;font-size: 0.40625rem;}
+
+#mine #myIndent>p{height: 1.5625rem;border-bottom: 2px solid #e0e0e0;display: flex;justify-content: space-between;align-items: center;padding:0 0.46875rem;}
+#mine #myIndent>p a{color: #999999;}
+#mine #myIndent>p a img{margin-left: 0.15625rem;}
+
+#mine #myIndent .order{height:2.234375rem;display: flex;align-items: center;}
+#mine #myIndent .order>div{width: 2.5rem;text-align: center;}
+#mine #myIndent .order>div img{width:0.5625rem;height: 0.546875rem;}
+#mine #myIndent .order>div p{font-size: 0.359375rem;line-height: 0.359375rem;margin-top: 0.34375rem;color: #333333;}
+
+#mine #function{background-color: #fff;font-size: 0.34375rem;color: #333;margin-top:0.3125rem;height: 6.25rem;margin-top: 0.3125rem;}
+#mine #function>div{box-sizing: content-box;height: 3.140625rem;display: flex;align-items: center;}
+#mine #function>div:first-of-type{border-bottom: 2px solid #e0e0e0;}
+#mine #function>div>div{width: 2.5rem;float: left;text-align: center;}
+#mine #function>div>div img{width: 0.84375rem;height: 0.75rem;}
+#mine #function>div>div p{font-size: 0.359375rem;line-height: 0.359375rem;margin-top: 0.34375rem;}
